@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+	<title>Burger Game</title>
+	<link href="styles.css" rel="stylesheet" type="text/css" title="default">
+	<script type="text/javascript" src="base.js"></script>
+	<script type="text/javascript" src="global.js"></script>
+	<meta charset=utf-8>
+</head>
+<body onload="loadGame()">
+
+<h1>Uncooked Patties: <span id="uncookedpatties">0</h1>
+<h1>Cooked Patties: <span id="cookedpatties">0</h1>
+<h1>Burgers: <span id="burgers">0</h1>
+<h1>Cash: <span id="cash">0</h1>
+
+<button onclick="cookPatty()">Cook Patty</button>
+<button onclick="assembleBurger()">Assemble Burger</button>
+<h1><span id="currentHeat">0</span>/500</h1>
+
+
+<button onclick="saveGame()">Save</button>
+<button onclick="loadGame()">Load</button>
+<button onclick="resetSave()">Reset</button>
+<h1 id="notifications"></h1>
+<h1 id="testarea"></h1>
+</body>
+</html>

@@ -1,0 +1,27 @@
+/* 
+#f64311 orange
+#4211f5 purple
+#020007 purple darker
+#000000 black
+#ffffff white
+#101010 gray darker
+#333333 gray
+#777777 gray lighter
+
+*/
+html {
+	min-height: 100%;
+}
+body {
+	color: #ffffff;
+	background-color: #020007;
+	font-family: "Trebuchet MS", sans-serif;
+	margin: 10px;	/* border around the whole thing */
+	padding: 0;
+	overflow-y: scroll;
+	text-align: center;
+}
+
+@media only screen and (max-width: 850px) {
+
+}
